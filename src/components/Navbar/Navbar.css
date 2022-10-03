@@ -26,10 +26,15 @@
 .app__navbar-links li {
     color: var(--color-black);
     padding: 2.5rem;
+    /* border-bottom: 1px solid var(--color-grey); */
 }
 
 .app__navbar-links li:hover {
     color: var(--color-grey);
+    /* border-bottom: 1px solid var(--color-grey); */
+}
+
+.app__navbar-links a:hover {
     border-bottom: 1px solid var(--color-grey);
 }
 
