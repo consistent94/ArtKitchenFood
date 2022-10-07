@@ -7,7 +7,7 @@ const FindUs = () => (
     <div className="app__wrapper_info">
       <h1 className="headtext__cormorant" style={{ marginBottom: '3rem' }}>Contact Us</h1>
       <div className="app__wrapper-content">
-        <a href='mailto:hello@artfoodkitchen.co.uk' className="p__opensans">hello@artfoodkitchen.co.uk</a>
+        <a href='mailto:hello@artfoodkitchen.co.uk' className="p__opensans" style={{textDecoration: underline}}>hello@artfoodkitchen.co.uk</a>
       </div>
     </div>
 
